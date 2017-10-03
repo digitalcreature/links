@@ -1,0 +1,25 @@
+{
+  "name": "links",
+  "version": "1.0.0",
+  "description": "simple link shortener",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tgrehawi/links.git"
+  },
+  "author": "tgrehawi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tgrehawi/links/issues"
+  },
+  "homepage": "https://github.com/tgrehawi/links#readme",
+  "dependencies": {
+    "express": "^4.16.1",
+    "express-basic-auth": "^1.1.2",
+    "mongoose": "^4.12.0",
+    "pug": "^2.0.0-rc.4"
+  }
+}
